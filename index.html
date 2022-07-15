@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Lift simulator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <aside>
+                <ol>
+                    <li class="button">1</li>
+                    <li class="button">2</li>
+                    <li class="button">3</li>
+                    <li class="break"></li>
+                    <li id="ground">G</li>
+                    <li id="addFloor" class="floor">Add floor</li>
+                    <li id="removeFloor" class="floor">Remove floor</li>
+                </ol>
+            </aside>
+            <section>
+                <div id="building">
+                    <div id="lift">
+                        <div class="pane"></div>
+                        <div class="pane"></div>
+                    </div>
+                    <div class="floor" data-floor="0">
+                        <div id="entrance">
+                            <div class="pane"></div>
+                            <div class="pane"></div>
+                        </div>
+                        <div class="shaft"></div>
+                        <div class="call">
+                            <span data-direction="up"></span>
+                            <span data-direction="down"></span>
+                        </div>
+                    </div>
+                    <div class="floor" data-floor="1">
+                        <div class="flat">
+                            <div class="pane"></div>
+                            <div class="pane"></div>
+                        </div>
+                        <div class="shaft"></div>
+                        <div class="call">
+                            <span data-direction="up"></span>
+                            <span data-direction="down"></span>
+                        </div>
+                    </div>
+                    <div class="floor" data-floor="2">
+                        <div class="flat">
+                            <div class="pane"></div>
+                            <div class="pane"></div>
+                        </div>
+                        <div class="shaft"></div>
+                        <div class="call">
+                            <span data-direction="up"></span>
+                            <span data-direction="down"></span>
+                        </div>
+                    </div>
+                    <div class="floor" data-floor="3">
+                        <div class="flat">
+                            <div class="pane"></div>
+                            <div class="pane"></div>
+                        </div>
+                        <div class="shaft"></div>
+                        <div class="call">
+                            <span data-direction="up"></span>
+                            <span data-direction="down"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
